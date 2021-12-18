@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple Suite">
+    <parameter name="BaseURI" value="https://jokes.p.rapidapi.com/"/>
+    <parameter name="hostKey" value="x-rapidapi-host"/>
+    <parameter name="hostValue" value="jokes.p.rapidapi.com"/>
+    <parameter name="keyKey" value="x-rapidapi-key"/>
+    <parameter name="keyValue" value="56d7a4653emsh4c19b463b18e6b7p144eb7jsn030e478c59b2"/>
+    <test name="Wrong End Point">
+        <classes>
+            <class name="SanitySuite.FirstTest">
+                <methods>
+                    <include name="wrongEndPoint"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Random Joke">
+        <parameter name="categoryIndex" value="3"/>
+        <classes>
+            <class name="SanitySuite.SecondTest">
+                <methods>
+                    <include name="randomJoke"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

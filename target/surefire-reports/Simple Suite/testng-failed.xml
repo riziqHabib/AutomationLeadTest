@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Simple Suite]">
+  <parameter name="keyValue" value="56d7a4653emsh4c19b463b18e6b7p144eb7jsn030e478c59b2"/>
+  <parameter name="hostKey" value="x-rapidapi-host"/>
+  <parameter name="keyKey" value="x-rapidapi-key"/>
+  <parameter name="BaseURI" value="https://jokes.p.rapidapi.com/"/>
+  <parameter name="hostValue" value="jokes.p.rapidapi.com"/>
+  <test thread-count="5" verbose="0" name="Wrong End Point(failed)">
+    <classes>
+      <class name="SanitySuite.FirstTest">
+        <methods>
+          <include name="wrongEndPoint"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- SanitySuite.FirstTest -->
+    </classes>
+  </test> <!-- Wrong End Point(failed) -->
+</suite> <!-- Failed suite [Simple Suite] -->
