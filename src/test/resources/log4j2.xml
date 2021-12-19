@@ -6,10 +6,10 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="com.mkyong" level="INFO" additivity="false">
+        <Logger name="com.mkyong" level="all" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
-        <Root level="INFO">
+        <Root level="all">
             <AppenderRef ref="LogToConsole"/>
         </Root>
     </Loggers>
