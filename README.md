@@ -4,8 +4,8 @@ this project is built as task for Automation lead position<br>
 frameworks that have been used:<br>
 -restAssured to manage restApi building,calling...<br>
 -hamcrest for assertion<br>
--log4j used for logging<br>
--kotlin for pojo classed<br>
+-log4j  for logging<br>
+-kotlin language for modeling pojo classes<br>
 -testng<br>
 
 to run the tests clone<br>
