@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
  */
 public class BaseTest {
    public  RequestSpecification requestSpecification;
-    @BeforeClass
+
     public void beforeMethod(ITestContext context) {
         requestSpecification = RestAssured.given();
         requestSpecification.baseUri(context.getCurrentXmlTest().getParameter("BaseURI"));
