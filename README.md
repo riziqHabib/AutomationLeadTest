@@ -1,7 +1,7 @@
 # AutomationLeadTest
 
-this project is built as task for Automation lead position 
-frameworks that have been used:
+this project is built as task for Automation lead position<br> 
+frameworks that have been used:<br>
 -restAssured to manage restApi building,calling...<br>
 -hamcrest for assertion<br>
 -log4j used for logging<br>
