@@ -5,3 +5,5 @@ package pojos
  */
 data class ErrorBasePojo(val error: ErrorCodePojo);
 data class ErrorCodePojo (val message:String,val code:Int);
+
+
