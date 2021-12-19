@@ -1,7 +1,8 @@
 # AutomationLeadTest
-AutomationLeadTest
-this project is build as task for Automation lead position 
--restAssured as restApi
+
+this project is built as task for Automation lead position 
+frameworks that have been used:
+-restAssured to manage restApi building,calling...
 -hamcrest for assertion
 -log4j used for logging
 -kotlin for pojo classed
